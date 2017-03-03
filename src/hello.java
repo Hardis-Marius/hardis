@@ -1,8 +1,15 @@
-/**
- * Created by Marius on 2017-03-03.
- */
+import java.util.Scanner;
+
 public class hello {
-    public static void hello (String[] args){
-        System.out.print("HEllo World");
+    public static void main (String[] args){
+        System.out.print("Iveskite varda");
+        Scanner sc = new Scanner(System.in);
+        String vardas = sc.nextLine();
+        System.out.println(vardas);
+        System.out.println(vardas);
+        System.out.println(vardas);
+        System.out.println(vardas);
+        System.out.println(vardas);
+
     }
 }
