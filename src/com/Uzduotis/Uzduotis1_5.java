@@ -13,7 +13,7 @@ public class Uzduotis1_5 {
         Scanner sc = new Scanner(System.in);
         masyvas = new int[ilgis];
         for (int i = 0; i < masyvas.length; i++) {
-            System.out.println("Iveskite" + (i + 1) + "a skaicius, skaicius turi buti");
+            System.out.println("Iveskite" + (i + 1) + "a skaicius");
             masyvas[i] = sc.nextInt();
         }
     }
