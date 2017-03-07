@@ -12,6 +12,9 @@ import java.util.Scanner;
 public class main {
 
     public static void main(String[] args) {
+        Uzduotis1_6 zz = new Uzduotis1_6();
+        zz.nuskaitymas2();
+
 //        System.out.print("Iveskite skaiciu");
 //        Scanner sc = new Scanner(System.in);
 //        int baba = sc.nextInt();
@@ -28,7 +31,6 @@ public class main {
 //        pavizdys.nuskaitymas(2);
 //        pavizdys.skaiciavimas();
     }
-    Uzduotis1_6 pavizdys = new Uzduotis1_6();
 }
 
 
