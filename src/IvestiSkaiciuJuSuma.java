@@ -8,7 +8,7 @@ public class IvestiSkaiciuJuSuma {
         int y = x;
         System.out.println("Vesk antrą skaičių");
         while (x !=0) {
-            System.out.println("Vesk dar vieną skaičių");
+            System.out.println();
             x = in.nextInt();
             y = x + y;
             System.out.println("Dabartinė suma " + y);
