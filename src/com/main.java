@@ -24,7 +24,9 @@ public class main {
 // Uzduotis3 uzduotis3 = new Uzduotis3();
 // Uzduotis4 uzduotis4 = new Uzduotis4();
 // Uzduotis5 uzduotis5 = new Uzduotis5();
-        Uzduotis1_5 pavizdys = new Uzduotis1_5( 7);
+        Uzduotis1_5 pavizdys = new Uzduotis1_5();
+        pavizdys.nuskaitymas( 7);
+        pavizdys.skaiciavimas();
     }
 }
 
