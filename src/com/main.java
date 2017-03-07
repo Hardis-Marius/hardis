@@ -6,7 +6,7 @@ import com.uzduotis2.Uzduotis2;
 import com.uzduotis3.Uzduotis3;
 import com.uzduotis4.Uzduotis4;
 import com.uzduotis5.Uzduotis5;
-
+import com.Uzduotis.Uzduotis1_6;
 import java.util.Scanner;
 
 public class main {
@@ -24,10 +24,11 @@ public class main {
 // Uzduotis3 uzduotis3 = new Uzduotis3();
 // Uzduotis4 uzduotis4 = new Uzduotis4();
 // Uzduotis5 uzduotis5 = new Uzduotis5();
-        Uzduotis1_5 pavizdys = new Uzduotis1_5();
-        pavizdys.nuskaitymas(2);
-        pavizdys.skaiciavimas();
+//        Uzduotis1_5 pavizdys = new Uzduotis1_5();
+//        pavizdys.nuskaitymas(2);
+//        pavizdys.skaiciavimas();
     }
+    Uzduotis1_6 pavizdys = new Uzduotis1_6();
 }
 
 
