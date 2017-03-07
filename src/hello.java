@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class hello {
-    public static void main (String[] args){
+    public static void main(String[] args) {
         System.out.print("Iveskite varda");
         Scanner sc = new Scanner(System.in);
         String vardas = sc.nextLine();

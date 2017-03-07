@@ -7,7 +7,7 @@ public class IvestiSkaiciuJuSuma {
         Integer x = in.nextInt();
         int y = x;
         System.out.println("Vesk antrą skaičių");
-        while (x !=0) {
+        while (x != 0) {
             System.out.println();
             x = in.nextInt();
             y = x + y;

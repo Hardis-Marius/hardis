@@ -9,22 +9,22 @@ public class Uzduotis1_5 {
     }
 
     public void nuskaitymas(int ilgis) {
-        System.out.println("");
+
         Scanner sc = new Scanner(System.in);
         masyvas = new int[ilgis];
         for (int i = 0; i < masyvas.length; i++) {
             System.out.println("Iveskite" + (i + 1) + "a skaicius, skaicius turi buti");
-            masyvas[1] = sc.nextInt();
+            masyvas[i] = sc.nextInt();
         }
     }
 
     public void skaiciavimas() {
         int suma = 0;
         for (int i = 0; i < masyvas.length; i++) {
-            System.out.print("Ivesti skaiciai" + masyvas[i]);
+            System.out.println("Ivesti skaiciai" + masyvas[i]);
             suma += masyvas[i];
         }
-        System.out.print("Visu Skaiciu Suma Ira" + suma);
+        System.out.println("Visu Skaiciu Suma Ira" + suma);
     }
 }
 

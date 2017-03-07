@@ -10,7 +10,7 @@ public class ZodisBePabaijgos {
         while (!x.equals("Pabaiga")) {
             System.out.println(x);
             x = in.next();
-            System.out.println("Ivestas "+x);
+            System.out.println("Ivestas " + x);
         }
         System.out.println("GAME OVER");
     }

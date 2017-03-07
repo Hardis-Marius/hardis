@@ -11,7 +11,7 @@ import java.util.Scanner;
 
 public class main {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 //        System.out.print("Iveskite skaiciu");
 //        Scanner sc = new Scanner(System.in);
 //        int baba = sc.nextInt();
@@ -25,7 +25,7 @@ public class main {
 // Uzduotis4 uzduotis4 = new Uzduotis4();
 // Uzduotis5 uzduotis5 = new Uzduotis5();
         Uzduotis1_5 pavizdys = new Uzduotis1_5();
-        pavizdys.nuskaitymas( 7);
+        pavizdys.nuskaitymas(2);
         pavizdys.skaiciavimas();
     }
 }

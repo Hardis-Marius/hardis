@@ -4,7 +4,7 @@ import java.util.Scanner;
 import java.util.Scanner;
 
 public class Uzduotis5 {
-    public Uzduotis5(){
+    public Uzduotis5() {
 
     }
 }
