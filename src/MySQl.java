@@ -22,7 +22,7 @@ public class MySQl {
                 System.out.println("|");
             }
             statement.execute("UPDATE `studentas` SET `Name` = 'Tadass', `phone` = '984268' WHERE `studentas`.`S_id` = 1 ");
-
+            statement.execute( "UPDATE `studentas` SET `Name` = 'JonasTarakonas', `phone` = '893158' WHERE `studentas`.`S_id` = 2");
             connection.close();
         } catch (Exception e) {
             System.out.print(e);
