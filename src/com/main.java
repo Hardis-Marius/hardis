@@ -15,21 +15,21 @@ public class main {
         Uzduotis1_6 zz = new Uzduotis1_6();
         zz.nuskaitymas2();
 
-//        System.out.print("Iveskite skaiciu");
-//        Scanner sc = new Scanner(System.in);
-//        int baba = sc.nextInt();
-//        if (baba == 1){
-//            Uzduotis1 uzduotis1 = new Uzduotis1();
-//        }
-//
-//         Uzduotis1 uzduotis1 = new Uzduotis1();
-// Uzduotis2 uzduotis2 = new Uzduotis2();
-// Uzduotis3 uzduotis3 = new Uzduotis3();
-// Uzduotis4 uzduotis4 = new Uzduotis4();
-// Uzduotis5 uzduotis5 = new Uzduotis5();
-//        Uzduotis1_5 pavizdys = new Uzduotis1_5();
-//        pavizdys.nuskaitymas(2);
-//        pavizdys.skaiciavimas();
+        System.out.print("Iveskite skaiciu");
+        Scanner sc = new Scanner(System.in);
+        int baba = sc.nextInt();
+        if (baba == 1){
+            Uzduotis1 uzduotis1 = new Uzduotis1();
+        }
+
+         Uzduotis1 uzduotis1 = new Uzduotis1();
+ Uzduotis2 uzduotis2 = new Uzduotis2();
+ Uzduotis3 uzduotis3 = new Uzduotis3();
+ Uzduotis4 uzduotis4 = new Uzduotis4();
+ Uzduotis5 uzduotis5 = new Uzduotis5();
+        Uzduotis1_5 pavizdys = new Uzduotis1_5();
+        pavizdys.nuskaitymas(2);
+        pavizdys.skaiciavimas();
     }
 }
 
